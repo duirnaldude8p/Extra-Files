@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel='stylesheet' href='css/bootstrap.min.css'/>
+	<link rel='stylesheet' href='css/style.css'/>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'/>
+</head>
+<body>
+    <div class="container">
+		    <form class="form" method="post" action="" id='form1'>
+            <h1 id="title" class="row">Animal Lovers Blog</h1> 
+            <div id="animal-container" class="row">
+                <div id="animal-input" class="container">
+                    <div id="animal-input-container" class="row">
+  			            <label id="name-label" class='object-label'>Name:</label>
+  			            <input id="name-input" type="text" class="form-control object">
+                        <label id="species-label" class='object-label'>Species:</label>
+                        <input id="species-input" type="text" class="form-control  object">
+                        <label id="colour-label" class='object-label'>Colour:</label>
+                        <input id="colour-input" type="text" class="form-control  object">
+                        <label id="weight-label" class='object-label'>Weight:</label>
+                        <input id="weight-input" type="text" class="form-control  object">
+                        <label id="height-label" class='object-label'>Height:</label>
+                        <input id="height-input" type="text" class="form-control  object">
+		   	            <input id="add-button" type="submit" class="btn btn-success object" value='Add'>
+                    </div>
+                </div>
+                <ul id="animals" class="row"></ul>
+            </div>
+		    </form>
+    </div>
+<script type='text/javascript' src='js/jquery-3.2.1.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
